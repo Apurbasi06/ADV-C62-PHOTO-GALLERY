@@ -1,0 +1,127 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src=""></script>
+</head>
+
+<body>
+    <h1>Welcome to my Photo Gallery</h1>
+    <img id="Logo" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/peony-flower-background-royalty-free-image-492863943-1548707918.jpg?crop=0.66745xw:1xh;center,top&resize=640:*">
+    <h2>Grid Gallery</h2>
+    <div class="flowers">
+        <img src="https://thumbs.dreamstime.com/b/spring-flowers-blue-crocuses-drops-water-backgro-background-tracks-rain-113784722.jpg">
+        <img src="https://www.gardendesign.com/pictures/images/675x529Max/site_3/helianthus-yellow-flower-pixabay_11863.jpg">
+        <img src="https://diy.sndimg.com/content/dam/images/diy/fullset/2017/10/9/0/CI_iBulb_Mixed-tulips.jpg.rend.hgtvcom.1280.1280.suffix/1507554670764.jpeg">
+        <img src="https://www.extension.iastate.edu/news/files/eo-news/images/adobestock_238555745_moth_orchids_large.jpg">
+        <img src="https://m.media-amazon.com/images/I/511IBS0CS2L.jpg">
+        <img src="https://www.guide-to-houseplants.com/images/freesia-purple-pinkbackground.jpg">
+        <img src="https://www.almanac.com/sites/default/files/image_nodes/hyacinths-marcin_jucha_ss.jpg">
+        <img src="https://worldoffloweringplants.com/wp-content/uploads/2016/04/Peruvian-Lily.jpg">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp8VITnun2st-pU8dzX37D6mKJ7Uo1VOR77Q&usqp=CAU">
+    </div>
+    <h3>Sliding Gallery</h3>
+    <div id="mycarousel" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="item active">
+                <center>
+                    <img class="img-responsive" src="https://www.flyingflowers.co.uk/ff_images/Anemone.jpg">
+                    <div class="carousel-content">
+                        <p>Anemone</p>
+                    </div>
+                </center>
+            </div>
+            <div class="item">
+                <center>
+                    <img id="img-responsive" src="https://lh3.googleusercontent.com/NZVK3rsV76kkujC9sNpQQ6nN0QcePk0Bb7vG5hbC3chSJRy2TpYSv2HM9vfixVogvudKoA=s128">
+                    <div class="carousel-content">
+                        <p>Daffodil</p>
+                    </div>
+                </center>
+            </div>
+            <div class="item">
+                <center>
+                    <img id="img-responsive" src="https://miro.medium.com/max/3130/1*L0hPOJZTFHSFHGtfrUhmTQ@2x.jpeg">
+                    <div class="carousel-content">
+                        <p>Poppy</p>
+                    </div>
+                </center>
+            </div>
+            <div class="item">
+                <center>
+                    <img id="img-responsive" src="https://5.imimg.com/data5/SELLER/Default/2021/1/GM/IL/CG/121609074/amaryllis-mix-flower-bulbs-500x500.jpg">
+                    <div class="carousel-content">
+                        <p>Amaryllis</p>
+                    </div>
+                </center>
+            </div>
+            <div class="item">
+                <center>
+                    <img id="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Bergenia_cordifolia_%28Flower%29.jpg/800px-Bergenia_cordifolia_%28Flower%29.jpg">
+                    <div class="carousel-content">
+                        <p>Bergenia</p>
+                    </div>
+                </center>
+            </div>
+            <div class="item">
+                <center>
+                    <img id="img-responsive" src="https://www.gardeningknowhow.com/wp-content/uploads/2021/02/bleeding-heart-flower.jpg">
+                    <div class="carousel-content">
+                        <p>Bleeding Heart</p>
+                    </div>
+                </center>
+            </div>
+            <div class="item">
+                <center>
+                    <img id="img-responsive" src="https://static.onecms.io/wp-content/uploads/sites/37/2015/06/15225429/BHG114257.jpg">
+                    <div class="carousel-content">
+                        <p>Bush Morning Glory</p>
+                    </div>
+                </center>
+            </div>
+            <div class="item">
+                <center>
+                    <img id="img-responsive" src="https://cdn.britannica.com/21/137521-050-B20FDFCB/Flower-hydrangea-hortensia-French.jpg">
+                    <div class="carousel-content">
+                        <p>Hydrangea</p>
+                    </div>
+                </center>
+            </div>
+            <div class="item">
+                <center>
+                    <img id="img-responsive" src="https://www.atozflowers.com/wp-content/uploads/2019/01/Nemophila_2018_3_255719249.jpeg">
+                    <div class="carousel-content">
+                        <p>Nemophila</p>
+                    </div>
+                </center>
+            </div>
+            <a class="left carousel-control" href="#mycarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left">
+                </span>
+            </a>
+            <a class="right carousel-control" href="#mycarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right">
+                </span>
+            </a>
+            <ol class="carousel-indicators">
+                <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#mycarousel" data-slide-to="1"></li>
+                <li data-target="#mycarousel" data-slide-to="2"></li>
+                <li data-target="#mycarousel" data-slide-to="3"></li>
+                <li data-target="#mycarousel" data-slide-to="4"></li>
+                <li data-target="#mycarousel" data-slide-to="5"></li>
+                <li data-target="#mycarousel" data-slide-to="6"></li>
+                <li data-target="#mycarousel" data-slide-to="7"></li>
+                <li data-target="#mycarousel" data-slide-to="8"></li>
+            </ol>
+        </div>
+    </div>
+</body>
+
+</html>
